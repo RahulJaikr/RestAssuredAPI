@@ -51,4 +51,10 @@ public class Firsttest {
 	{
 		System.out.println("learn api");
 	}
+	
+	@Test
+	public void checkTest2()
+	{
+		System.out.println("learn api");
+	}
 }
