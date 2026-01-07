@@ -57,4 +57,11 @@ public class AddbookTest
 	{
 		return new Object[][]{{"LABDK2","998112"}, {"kABA88","14481"}};
 	}
+	
+
+	@DataProvider(name = "bookData2")
+	public Object[][] runData2()
+	{
+		return new Object[][]{{"LAABDK2","9983112"}, {"kAABA88","144831"}};
+	}
 }

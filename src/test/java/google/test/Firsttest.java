@@ -46,4 +46,9 @@ public class Firsttest {
 	
 	}
 
+	@Test
+	public void checkTest()
+	{
+		System.out.println("learn api");
+	}
 }
