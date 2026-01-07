@@ -62,6 +62,10 @@ public class AddbookHashMapTest
 		.then().assertThat().log().all().statusCode(200).extract().response().asString();
 	}
 
-	
+	@Test
+	public void runTest1()
+	{
+		System.out.println("chnages has done");
+	}
 	
 }
